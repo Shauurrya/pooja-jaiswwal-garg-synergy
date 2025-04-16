@@ -245,6 +245,7 @@ header p {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 270px;
 }
 
 .reach-out-list img {
