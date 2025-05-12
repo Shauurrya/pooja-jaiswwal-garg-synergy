@@ -439,3 +439,62 @@ footer {
         padding: 0 10px;
     }
 }
+
+.section-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Summary styling */
+.section-dropdown summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    color: #fff;
+}
+
+.section-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+.section-dropdown .arrow::before {
+    content: "▶";
+    transition: transform 0.3s ease;
+}
+
+.section-dropdown[open] .arrow::before {
+    transform: rotate(90deg);
+}
+
+/* Section-specific colors */
+.section-dropdown.myth-busters {
+    background-color: #e57373; /* soft red */
+}
+
+.section-dropdown.myth-busters summary {
+    background-color: #d32f2f;
+}
+
+.section-dropdown.wellness-tips {
+    background-color: #81c784; /* soft green */
+}
+
+.section-dropdown.wellness-tips summary {
+    background-color: #388e3c;
+}
+
+.section-dropdown.faq {
+    background-color: #64b5f6; /* soft blue */
+}
+
+.section-dropdown.faq summary {
+    background-color: #1976d2;
+}
