@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="Pooja Jaisswal Garg – Counselling Psychologist & Certified School Counsellor helping adolescents, students, and individuals with emotional well-being.">
     <meta name="keywords" content="counselling, psychologist, school counsellor, mental health, therapy, Pooja Jaisswal Garg">
-    <title>Pooja Jaisswal Garg - Counselling Psychologist</title>
+    <title>Pooja Jaisswal Garg - Synergy</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="logo-container">
+        <img src="images/your-logo.png" alt="Website Logo">
+    </div>
     <header class="hero">
         <div class="overlay">
             <h1>
@@ -52,48 +55,53 @@
     </section>
 
     <section class="counselling-roles">
-        <h2>What Does a Counselling Psychologist Do?</h2>
-        <p>Counselling psychologists provide therapy and support to individuals struggling with mental health challenges.</p>
-        <div class="roles-container">
-            <div class="role-card">
-                <img src="https://cdn-icons-png.flaticon.com/512/8638/8638228.png" alt="Therapy Icon">
-                <h3>Provides Therapy</h3>
-                <p>Offers psychological support and therapy sessions to improve mental well-being.</p>
+        <details>
+            <summary><h2>What Does a Counselling Psychologist Do?</h2></summary>
+            <p>Counselling psychologists provide therapy and support to individuals struggling with mental health challenges.</p>
+            <div class="roles-container">
+                <div class="role-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8638/8638228.png" alt="Therapy Icon">
+                    <h3>Provides Therapy</h3>
+                    <p>Offers psychological support and therapy sessions to improve mental well-being.</p>
+                </div>
+                <div class="role-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/11112/11112877.png" alt="Assessment Icon">
+                    <h3>Conducts Assessments</h3>
+                    <p>Evaluates emotional and behavioral issues using various techniques.</p>
+                </div>
+                <div class="role-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6693/6693388.png" alt="Guidance Icon">
+                    <h3>Offers Guidance</h3>
+                    <p>Helps clients cope with stress, trauma, and life challenges.</p>
+                </div>
             </div>
-            <div class="role-card">
-                <img src="https://cdn-icons-png.flaticon.com/512/11112/11112877.png" alt="Assessment Icon">
-                <h3>Conducts Assessments</h3>
-                <p>Evaluates emotional and behavioral issues using various techniques.</p>
-            </div>
-            <div class="role-card">
-                <img src="https://cdn-icons-png.flaticon.com/512/6693/6693388.png" alt="Guidance Icon">
-                <h3>Offers Guidance</h3>
-                <p>Helps clients cope with stress, trauma, and life challenges.</p>
-            </div>
-        </div>
+        </details>
     </section>
-
+    
     <section class="school-counsellor">
-        <h2>Role of a Certified School Counsellor</h2>
-        <p>School counsellors support students in academic, personal, and social development.</p>
-        <div class="roles-container">
-            <div class="role-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSx6lFnQ0uGwxuB3l4PkS0l4NiZctBQWO71w&s" alt="Student Support Icon">
-                <h3>Student Support</h3>
-                <p>Provides emotional and academic support to students.</p>
+        <details>
+            <summary><h2>Role of a Certified School Counsellor</h2></summary>
+            <p>School counsellors support students in academic, personal, and social development.</p>
+            <div class="roles-container">
+                <div class="role-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSx6lFnQ0uGwxuB3l4PkS0l4NiZctBQWO71w&s" alt="Student Support Icon">
+                    <h3>Student Support</h3>
+                    <p>Provides emotional and academic support to students.</p>
+                </div>
+                <div class="role-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2618/2618575.png" alt="Career Guidance Icon">
+                    <h3>Career Guidance</h3>
+                    <p>Assists students in choosing academic and career paths.</p>
+                </div>
+                <div class="role-card">
+                    <img src="https://cdn-icons-png.flaticon.com/256/3998/3998035.png" alt="Mental Health Icon">
+                    <h3>Mental Health Support</h3>
+                    <p>Helps students cope with stress, anxiety, and peer pressure.</p>
+                </div>
             </div>
-            <div class="role-card">
-                <img src="https://cdn-icons-png.flaticon.com/512/2618/2618575.png" alt="Career Guidance Icon">
-                <h3>Career Guidance</h3>
-                <p>Assists students in choosing academic and career paths.</p>
-            </div>
-            <div class="role-card">
-                <img src="https://cdn-icons-png.flaticon.com/256/3998/3998035.png" alt="Mental Health Icon">
-                <h3>Mental Health Support</h3>
-                <p>Helps students cope with stress, anxiety, and peer pressure.</p>
-            </div>
-        </div>
+        </details>
     </section>
+    
 
     <section class="expertise">
         <div class="container">
@@ -132,6 +140,8 @@
         <img src="images/image1.jpg" alt="Session 2">
         <img src="images/image4.jpg" alt="Session 3">
         <img src="images/image5.jpg" alt="Session 4">
+        <img src="images/image6.jpg" alt="Session 5">
+        <img src="images/image7.jpg" alt="Session 6">
         </div>
         
         <button id="nextBtn" class="carousel-btn">&#10095;</button>
@@ -233,7 +243,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const text = "Pooja Jaisswal Garg";
+            const text = "Pooja Jaisswal Garg - Synergy";
             const typingElement = document.getElementById("typing-text");
             let i = 0;
             const speed = 100; // typing speed in ms
