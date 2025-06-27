@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Pooja Jaiswwal Garg – Counselling Psychologist & Certified School Counsellor helping adolescents, students, and individuals with emotional well-being.">
-    <meta name="keywords" content="counselling, psychologist, school counsellor, mental health, therapy, Pooja Jaiswwal Garg">
     <title>Pooja Jaiswwal Garg - Synergy</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
 </head>
@@ -14,260 +16,203 @@
         <img src="images/your-logo.png" alt="Website Logo">
     </div>
     <header class="hero">
-        <div class="overlay">
-            <h1>
-                <span id="typing-text" style="color: white;"></span>
-                <span class="cursor" style="color: white;">|</span>
-            </h1>
-            <h2>Counselling Psychologist & Certified School Counsellor</h2>
-            <p>Your mental wellness journey begins here.</p>
-        </div>
+        <h1 id="typing-text-container">
+            <span id="typing-text"></span>
+            <span class="cursor">|</span>
+        </h1>
+        <p class="subtitle">Counselling Psychologist & Certified School Counsellor</p>
+        <p style="font-size: large;">Your mental wellness journey begins here.</p>
     </header>
 
-    <section class="intro">
-        <div class="container">
-        <img src="images/image2.jpg" alt="Pooja Jaiswwal Garg" class="profile-pic">
-        <div class="bio">
-            <h3>About Me</h3>
-            <p>I specialize in helping individuals, particularly adolescents and students, develop emotional resilience, enhance coping strategies, and manage stress.I believe in a compassionate, non-judgmental approach to counselling that supports and empowers clients to navigate their challenges with confidence and clarity.</p>
-        </div>
-        </div>
-    </section>
-
-    <section class="qualifications">
-        <div class="container">
-        <h3>Qualifications</h3>
-        <ul>
-            <li>Master’s in Psychology with specialization in Counselling.</li>
-            <li>MBA Super Specialization in HR.</li>
-        </ul>
-        </div>
-    </section>
-
-    <section class="additional-qualifications">
-        <div class="container">
-        <h3>Additional Certifications</h3>
-        <ul>
-            <li>Certified School Counsellor.</li>
-            <li>Certified in Advanced Child Psychology.</li>
-        </ul>
-        </div>
-    </section>
-
-    <section class="counselling-roles">
-        <details>
-            <summary><h2>What Does a Counselling Psychologist Do?</h2></summary>
-            <p>Counselling psychologists provide therapy and support to individuals struggling with mental health challenges.</p>
-            <div class="roles-container">
-                <div class="role-card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/8638/8638228.png" alt="Therapy Icon">
-                    <h3>Provides Therapy</h3>
-                    <p>Offers psychological support and therapy sessions to improve mental well-being.</p>
-                </div>
-                <div class="role-card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/11112/11112877.png" alt="Assessment Icon">
-                    <h3>Conducts Assessments</h3>
-                    <p>Evaluates emotional and behavioral issues using various techniques.</p>
-                </div>
-                <div class="role-card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/6693/6693388.png" alt="Guidance Icon">
-                    <h3>Offers Guidance</h3>
-                    <p>Helps clients cope with stress, trauma, and life challenges.</p>
+    <main>
+        <section class="intro animate-on-scroll">
+            <div class="container">
+                <img src="images/image2.jpg" alt="Pooja Jaiswwal Garg" class="profile-pic">
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <h3>I specialize in helping individuals, particularly adolescents and students, develop emotional resilience, enhance coping strategies, and manage stress. I believe in a compassionate, non-judgmental approach to counselling that supports and empowers clients to navigate their challenges with confidence and clarity.</p>
                 </div>
             </div>
-        </details>
-    </section>
-    
-    <section class="school-counsellor">
-        <details>
-            <summary><h2>Role of a Certified School Counsellor</h2></summary>
-            <p>School counsellors support students in academic, personal, and social development.</p>
-            <div class="roles-container">
-                <div class="role-card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSx6lFnQ0uGwxuB3l4PkS0l4NiZctBQWO71w&s" alt="Student Support Icon">
-                    <h3>Student Support</h3>
-                    <p>Provides emotional and academic support to students.</p>
-                </div>
-                <div class="role-card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2618/2618575.png" alt="Career Guidance Icon">
-                    <h3>Career Guidance</h3>
-                    <p>Assists students in choosing academic and career paths.</p>
-                </div>
-                <div class="role-card">
-                    <img src="https://cdn-icons-png.flaticon.com/256/3998/3998035.png" alt="Mental Health Icon">
-                    <h3>Mental Health Support</h3>
-                    <p>Helps students cope with stress, anxiety, and peer pressure.</p>
+        </section>
+
+        <section class="qualifications animate-on-scroll">
+            <div class="container">
+                <h2>Qualifications & Certifications</h2>
+                <div class="qualifications-grid">
+                    <div class="qualification-item">Master’s in Psychology (Counselling)</div>
+                    <div class="qualification-item">MBA Super Specialization in HR</div>
+                    <div class="qualification-item">Certified School Counsellor</div>
+                    <div class="qualification-item">Certified in Advanced Child Psychology</div>
                 </div>
             </div>
-        </details>
-    </section>
-    
+        </section>
 
-    <section class="expertise">
-        <div class="container">
-            <h2>Areas of Expertise</h2>
-            <p>Pooja Jaiswwal Garg provides compassionate support across a wide range of emotional and psychological concerns. Her areas of practice include:</p>
-            <div class="expertise-grid">
-                <div class="expertise-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3771/3771239.png" alt="Adolescent Psychology Icon">
-                    <h3>Adolescent Psychology</h3>
-                    <p>Helping teens build emotional resilience, cope with academic stress, and navigate identity and peer-related challenges.</p>
-                </div>
-                <div class="expertise-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3285/3285577.png" alt="Stress Management Icon">
-                    <h3>Stress & Anxiety Management</h3>
-                    <p>Guiding individuals in managing overwhelming emotions, work pressure, and lifestyle stressors with healthy coping techniques.</p>
-                </div>
-                <div class="expertise-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920215.png" alt="Relationship Icon">
-                    <h3>Relationship Counselling</h3>
-                    <p>Supporting better communication and emotional understanding in family, peer, and partner relationships.</p>
-                </div>
-                <div class="expertise-item">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1683/1683794.png" alt="Self-Esteem Icon">
-                    <h3>Self-Esteem & Confidence Building</h3>
-                    <p>Empowering individuals to embrace their strengths and overcome self-doubt through positive self-reflection.</p>
+        <section class="expertise animate-on-scroll">
+            <div class="container">
+                <h2>Areas of Expertise</h2>
+                <p class="section-subtitle">Providing compassionate support across a wide range of emotional and psychological concerns.</p>
+                <div class="expertise-grid-wrapper">
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/512/3771/3771239.png" alt="Icon"></div>
+                            <h3>Adolescent Psychology</h3>
+                            <p>Helping teens build emotional resilience, cope with academic stress, and navigate identity and peer-related challenges.</p>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/512/3285/3285577.png" alt="Icon"></div>
+                            <h3>Stress & Anxiety</h3>
+                            <p>Guiding individuals in managing overwhelming emotions and lifestyle stressors with healthy coping techniques.</p>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/512/2920/2920215.png" alt="Icon"></div>
+                            <h3>Relationship Counselling</h3>
+                            <p>Supporting better communication and emotional understanding in family, peer, and partner relationships.</p>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/512/1683/1683794.png" alt="Icon"></div>
+                            <h3>Self-Esteem & Confidence</h3>
+                            <p>Empowering individuals to embrace their strengths and overcome self-doubt through positive self-reflection.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>    
+        </section>
 
-    <section class="carousel">
-        <button id="prevBtn" class="carousel-btn">&#10094;</button>
+        <section class="expertise animate-on-scroll">
+            <div class="container">
+                <h2>Role of a Certified School Counsellor</h2>
+                <p class="section-subtitle">School counsellors support students in academic, personal, and social development.</p>
+                <div class="expertise-grid">
+                    <div class="expertise-item">
+                        <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/512/6600/6600407.png" alt="Icon"></div>
+                        <h3>Student Support</h3>
+                        <p>Provides emotional and academic support to students.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/512/2618/2618575.png" alt="Icon"></div>
+                        <h3>Career Guidance</h3>
+                        <p>Assists students in choosing academic and career paths.</p>
+                    </div>
+                    <div class="expertise-item">
+                        <div class="expertise-icon"><img src="https://cdn-icons-png.flaticon.com/256/3998/3998035.png" alt="Icon"></div>
+                        <h3>Mental Health Support</h3>
+                        <p>Helps students cope with stress, anxiety, and peer pressure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reach-out">
+            <h2>When Should You Reach Out?</h2>
+            <p>If you experience any of these challenges, seeking help can make a difference.</p>
+            <br>
+            <br>
+            <ul class="reach-out-list">
+                <li><img class="expertise-icon" src="https://cdn-icons-png.flaticon.com/512/3663/3663467.png" alt="Stress Icon"> Struggling with stress or anxiety</li>
+                <li><img class="expertise-icon" src="https://cdn-icons-png.flaticon.com/512/8386/8386426.png" alt="Relationship Icon"> Issues in relationships or family</li>
+                <li><img class="expertise-icon" src="https://cdn-icons-png.flaticon.com/512/2941/2941855.png" alt="Grief Icon"> Coping with loss or trauma</li>
+                <li><img class="expertise-icon"src="https://cdn-icons-png.flaticon.com/512/788/788613.png" alt="Low Mood Icon"> Feeling overwhelmed or depressed</li>
+            </ul>
+        </section>
         
-        <div class="carousel-images">
-        <img src="images/image3.jpg" alt="Session 1">
-        <img src="images/image1.jpg" alt="Session 2">
-        <img src="images/image4.jpg" alt="Session 3">
-        <img src="images/image5.jpg" alt="Session 4">
-        <img src="images/image6.jpg" alt="Session 5">
-        <img src="images/image7.jpg" alt="Session 6">
-        </div>
+        <section class="carousel">
+            <button id="prevBtn" class="carousel-btn">&#10094;</button>
+            
+            <div class="carousel-images">
+                <img src="images/image3.jpg" alt="Session 1">
+                <img src="images/image1.jpg" alt="Session 2">
+                <img src="images/image4.jpg" alt="Session 3">
+                <img src="images/image5.jpg" alt="Session 4">
+                <img src="images/image6.jpg" alt="Session 5">
+                <img src="images/image7.jpg" alt="Session 6">
+            </div>
+            
+            <button id="nextBtn" class="carousel-btn">&#10095;</button>
+        </section>
         
-        <button id="nextBtn" class="carousel-btn">&#10095;</button>
-    </section>
-    
+        
 
-    <section class="reach-out">
-        <h2>When Should You Reach Out?</h2>
-        <p>If you experience any of these challenges, seeking help can make a difference.</p>
-        <ul class="reach-out-list">
-            <li><img src="https://cdn-icons-png.flaticon.com/512/3663/3663467.png" alt="Stress Icon"> Struggling with stress or anxiety</li>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/8386/8386426.png" alt="Relationship Icon"> Issues in relationships or family</li>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/2941/2941855.png" alt="Grief Icon"> Coping with loss or trauma</li>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/788/788613.png" alt="Low Mood Icon"> Feeling overwhelmed or depressed</li>
-        </ul>
-    </section>
+        <section class="details-section animate-on-scroll">
+            <div class="container">
+                <h2>Your Questions, Answered</h2>
+                <p class="section-subtitle">Information to help you feel comfortable and prepared for your journey.</p>
+                <div class="details-container">
+                    <details class="details-item">
+                        <summary>What does a counselling psychologist do? <span class="icon">+</span></summary>
+                        <div class="details-content">
+                            <div class="details-content-inner">
+                                <p>A counseling psychologist fosters well-being by helping people with their emotional, social, work, school, and physical health concerns, using a variety of therapeutic techniques.</p>
+                                <div class="roles-container">
+                                    <div class="role-card">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/8638/8638228.png" alt="Icon">
+                                        <h3>Therapy</h3>
+                                        <p>Offers psychological support to improve mental well-being.</p>
+                                    </div>
+                                    <div class="role-card">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/11112/11112877.png" alt="Icon">
+                                        <h3>Assessments</h3>
+                                        <p>Evaluates emotional and behavioral issues.</p>
+                                    </div>
+                                    <div class="role-card">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/6693/6693388.png" alt="Icon">
+                                        <h3>Guidance</h3>
+                                        <p>Helps clients cope with stress, trauma, and life challenges.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                    <details class="details-item">
+                        <summary>Common Mental Health Myths Busted <span class="icon">+</span></summary>
+                         <div class="details-content">
+                            <div class="details-content-inner">
+                                <p><strong>Myth:</strong> Mental health problems are rare.<br><strong>Fact:</strong> They affect millions worldwide and can impact anyone, regardless of age or background.</p>
+                                <p><strong>Myth:</strong> Therapy is only for serious problems.<br><strong>Fact:</strong> Therapy is for anyone looking to improve their mental well-being and develop better coping skills.</p>
+                            </div>
+                        </div>
+                    </details>
+                    <details class="details-item">
+                        <summary>Frequently Asked Questions (FAQ) <span class="icon">+</span></summary>
+                         <div class="details-content">
+                            <div class="details-content-inner">
+                                <p><strong>What can I expect in my first session?</strong><br>It's an opportunity for us to discuss your goals and concerns, setting the foundation for our work together.</p>
+                                <p><strong>Is counselling confidential?</strong><br>Yes, everything discussed is confidential, with exceptions only for risk of harm to yourself or others.</p>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
 
-    <details class="section-dropdown myth-busters">
-        <summary>
-            <span>Common Mental Health Myths Busted</span>
-            <span class="arrow"></span>
-        </summary>
-        <div class="container">
-            <div class="myth-item">
-                <h3>Myth: Mental health problems are rare.</h3>
-                <p>Fact: Mental health problems affect millions of people worldwide and can affect anyone, regardless of age or background.</p>
+        <section class="quote animate-on-scroll">
+            <div class="container">
+                <blockquote>
+                    I may not be able to fix all your problems, but I can promise that you won’t have to face them alone.
+                </blockquote>
             </div>
-            <div class="myth-item">
-                <h3>Myth: Therapy is only for people with serious problems.</h3>
-                <p>Fact: Therapy is for anyone looking to improve their mental well-being and develop better coping skills.</p>
-            </div>
-            <div class="myth-item">
-                <h3>Myth: Talking about your feelings makes them worse.</h3>
-                <p>Fact: Talking about feelings can help release built-up emotions and provide a sense of relief.</p>
-            </div>
-        </div>
-    </details>
-    
-    <details class="section-dropdown wellness-tips">
-        <summary>
-            <span>Quick Mental Wellness Tips</span>
-            <span class="arrow"></span>
-        </summary>
-        <div class="container">
-            <div class="tip-card">
-                <h3>Practice Deep Breathing</h3>
-                <p>Take a moment to practice deep breathing when you feel overwhelmed. This can help calm your mind and body.</p>
-            </div>
-            <div class="tip-card">
-                <h3>Stay Physically Active</h3>
-                <p>Physical activity is great for mental health. A daily walk or exercise routine can boost your mood and reduce anxiety.</p>
-            </div>
-            <div class="tip-card">
-                <h3>Set Boundaries</h3>
-                <p>Learning to say no is crucial for maintaining healthy boundaries. Don’t overextend yourself to avoid burnout.</p>
-            </div>
-        </div>
-    </details>
-    
-    <details class="section-dropdown faq">
-        <summary>
-            <span>Frequently Asked Questions</span>
-            <span class="arrow"></span>
-        </summary>
-        <div class="container">
-            <div class="faq-item">
-                <h3>What can I expect during my first session?</h3>
-                <p>Your first session will be an opportunity to discuss your goals, concerns, and background. It will set the foundation for future sessions.</p>
-            </div>
-            <div class="faq-item">
-                <h3>Do I need to prepare anything before my session?</h3>
-                <p>No preparation is required. Simply come with an open mind, and we will discuss what's on your mind.</p>
-            </div>
-            <div class="faq-item">
-                <h3>Is counselling confidential?</h3>
-                <p>Yes, everything discussed in therapy is confidential unless there is a risk of harm to you or others.</p>
-            </div>
-        </div>
-    </details>        
+        </section>
 
-    <section class="quote" style="background-color: bisque;">
-        <blockquote style="font-size: x-large;"><i><b>
-        “I may not be able to fix all your problems, but I can promise that you won’t have to face them alone.”
-        </b></i></blockquote>
-    </section>
-
-    <section class="contact" id="contact-section">
-        <div class="container">
-        <h3>Book a Session Online</h3>
-        <p>📞 Phone: 9050364127</p>
-        <p>🏫 School counsellor: Anand Public School, Yamunanagar</p>
-        <a href="https://forms.gle/imWAHEW35i3mUq7m6" class="register-btn" target="none">Register for a Counselling Session</a>
-        </div>
-    </section>
+        <section class="contact animate-on-scroll" id="contact-section">
+            <div class="container">
+                <h2>Take the First Step</h2>
+                <p class="section-subtitle">Ready to begin your journey towards mental wellness? Reach out to book a session.</p>
+                <div class="contact-details">
+                    <p><strong>📞 Phone:</strong>+91 9050364127</p>
+                    <p><strong>🏫 School counsellor:</strong>Anand Public School, Yamunanagar</p>
+                </div>
+                <a href="https://forms.gle/imWAHEW35i3mUq7m6" class="register-btn" target="_blank" rel="noopener noreferrer">Register for a Session</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Pooja Jaiswwal Garg. All Rights Reserved.</p>
     </footer>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const text = "Pooja Jaiswwal Garg - Synergy";
-            const typingElement = document.getElementById("typing-text");
-            let i = 0;
-            const speed = 100; // typing speed in ms
-            const pause = 2000; // pause after full text is typed
-
-            function typeWriter() {
-                if (i < text.length) {
-                    typingElement.innerHTML += text.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, speed);
-                } else {
-                    setTimeout(() => {
-                        typingElement.innerHTML = "";
-                        i = 0;
-                        typeWriter();
-                    }, pause);
-                }
-            }
-
-            typeWriter();
-        });
-    </script>
-    <a href="https://forms.gle/imWAHEW35i3mUq7m6" class="floating-register-btn" target="none">
-        <img src="https://cdn-icons-png.flaticon.com/512/75/75624.png" alt="Register" class="register-icon">
-        Register Now
+    <a href="https://forms.gle/imWAHEW35i3mUq7m6" class="floating-register-btn" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+        Register
     </a>
+    
+</body>
 </html>
